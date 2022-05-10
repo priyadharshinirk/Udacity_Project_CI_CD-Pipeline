@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/priyadharshinirk/Udacity_Project_CI_CD-Pipeline/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/priyadharshinirk/Udacity_Project_CI_CD-Pipeline/actions/workflows/pythonapp.yml)
+
 # Overview
 
 This is the second project of Udacity DevOps Engineer for Microsoft Azure Nanodegree Program.
