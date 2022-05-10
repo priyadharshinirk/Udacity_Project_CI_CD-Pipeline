@@ -1,14 +1,16 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This is the second project of Udacity DevOps Engineer for Microsoft Azure Nanodegree Program.
 
-## Project Plan
+This project builds a CI pipeline using GitHub Actions and a CD pipeline using Azure Pipelines for a Python-based machine learning application.
 
-* https://trello.com/invite/b/uJzTBzDa/e3fbb477e398df33876b84ba749d5c73/building-ci-cd-pipeline
-* project-management-template.xlsx
+ ## Project Plan
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Link to Trello board :https://trello.com/invite/b/uJzTBzDa/e3fbb477e398df33876b84ba749d5c73/building-ci-cd-pipeline
+* Checkout project-management-template.xlsx for project plan
+
+  
+### Architectural Diagram (Shows how key parts of the system work)
 
 Local System >>>>>> GitHub >>>>>>>>>>>GitHub Actions(Automatic Trigger)
             git Push    |   
@@ -17,8 +19,9 @@ Local System >>>>>> GitHub >>>>>>>>>>>GitHub Actions(Automatic Trigger)
                         |>>>>>>Azure DevOps >>>>>>>>Azure Pipelines(Automatic Trigger)
 
 
-Instructions:
-Refer the step by step in the Project guide.docx file
+### Instructions:
+
+Refer the step by step instruction with screenshot in the Project guide.docx file
 
 ## Enhancements
 
