@@ -3,49 +3,28 @@
 <TODO: complete this with an overview of your project>
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
-
-## Instructions
+* https://trello.com/invite/b/uJzTBzDa/e3fbb477e398df33876b84ba749d5c73/building-ci-cd-pipeline
+* project-management-template.xlsx
 
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+Local System >>>>>> GitHub >>>>>>>>>>>GitHub Actions(Automatic Trigger)
+            git Push    |   
+                        |
+                        |
+                        |>>>>>>Azure DevOps >>>>>>>>Azure Pipelines(Automatic Trigger)
 
-* Project running on Azure App Service
 
-* Project cloned into Azure Cloud Shell
-
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
-
-* Output of a test run
-
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-
-* Running Azure App Service from Azure Pipelines automatic deployment
-
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
-
-* Output of streamed log files from deployed application
-
-> 
+Instructions:
+Refer the step by step in the Project guide.docx file
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+    Deploy a Kubernetes version of the project on Azure Kubernetes Service (AKS) for high scalability and better usability
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
-
+https://youtu.be/fayGU5GMYXA
 
