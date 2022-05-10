@@ -12,11 +12,8 @@ This project builds a CI pipeline using GitHub Actions and a CD pipeline using A
   
 ### Architectural Diagram (Shows how key parts of the system work)
 
-Local System >>>>>> GitHub >>>>>>>>>>>GitHub Actions(Automatic Trigger)
-            git Push    |   
-                        |
-                        |
-                        |>>>>>>Azure DevOps >>>>>>>>Azure Pipelines(Automatic Trigger)
+![image](https://user-images.githubusercontent.com/22880405/167623205-2fb7a3e5-490f-402b-b470-42a941b55775.png)
+
 
 
 ### Instructions:
